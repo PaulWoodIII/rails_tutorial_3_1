@@ -44,6 +44,10 @@ GEM
     erubis (2.7.0)
     execjs (1.2.4)
       multi_json (~> 1.0)
+    formtastic (1.2.4)
+      actionpack (>= 2.3.7)
+      activesupport (>= 2.3.7)
+      i18n (~> 0.4)
     hike (1.2.1)
     i18n (0.6.0)
     jquery-rails (1.0.14)
@@ -53,8 +57,12 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    metaclass (0.0.1)
     mime-types (1.16)
+    mocha (0.10.0)
+      metaclass (~> 0.0.1)
     multi_json (1.0.3)
+    nifty-generators (0.4.6)
     polyglot (0.3.2)
     rack (1.3.2)
     rack-cache (1.0.3)
@@ -108,8 +116,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt-ruby
   coffee-rails (~> 3.1.0)
+  formtastic
   jquery-rails
+  mocha
+  nifty-generators
   rails (= 3.1.0)
   sass-rails (~> 3.1.0)
   sqlite3
